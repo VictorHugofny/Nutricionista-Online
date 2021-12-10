@@ -21,7 +21,7 @@
     ></v-text-field>
     <Menuprops/>
     <v-btn
-      class="mr-4"
+      class="submit"
       @click="submit"
     >
       Enviar
@@ -47,6 +47,11 @@ export default {
   components:{
     Menuprops,
     Avatar
+  },
+  methods:{
+    submit: function(){
+      alert("EM DESENVOLVIMENTO")
+    }
   }
 }
 </script>
