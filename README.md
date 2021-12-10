@@ -7,7 +7,7 @@
   <img alt="web" src="src/assets/previa.gif" width="100%">
 </p>
 
-<h4>Site para a consulta nutriconal, com o intuito de alocar suas informaçoes basicas e receber recomedaçoes de receitas para dietas e outros fins.</h4>
+<h4>Site para a consulta nutriconal, com o intuito de alocar suas informaçoes basicas.</h4>
 
 ### Project setup (Configuração do projeto)
 ```
