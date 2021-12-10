@@ -33,7 +33,7 @@
 
 <style scoped>
 form{
-  margin-top: 100px;
+  margin-top: 10px;
   margin-left: 150px;
   margin-right: 150px;
 }
