@@ -9,7 +9,8 @@
       required
       @input="$v.name.$touch()"
       @blur="$v.name.$touch()"
-    ></v-text-field>
+    >
+    </v-text-field>
     <v-text-field
       v-model="email"
       :error-messages="emailErrors"
@@ -25,9 +26,8 @@
     >
       Enviar
     </v-btn>
-    <v-btn @click="clear">
-      Reescrever
-    </v-btn>
+
+     
   </form>
 </template>
 

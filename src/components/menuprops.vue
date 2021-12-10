@@ -1,6 +1,6 @@
 <template>
   <v-row align="center">
-    <v-col cols="12">
+    <v-col cols="10">
       <v-select
         :items="items"
         :menu-props="{ top: true, offsetY: true }"
@@ -29,15 +29,23 @@
       @blur="$v.idade.$touch()"
     ></v-text-field>
 </v-col>
+    <v-col cols="6">
+      <v-select
+        :items="motivo"
+        :menu-props="{ top: true, offsetY: true }"
+        label="Motivação"
+      ></v-select>
+    </v-col>
   </v-row>
 
-
+ 
 </template>
 
 <script>
   export default {
     data: () => ({
       items: ['Homem', 'Mulher'],
+      motivo: ['Perder peso','Ganhar peso']
     }),
   }
 </script>
